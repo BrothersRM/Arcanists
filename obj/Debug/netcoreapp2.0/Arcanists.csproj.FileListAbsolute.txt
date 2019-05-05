@@ -1,0 +1,12 @@
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Arcanists.deps.json
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Arcanists.runtimeconfig.json
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Arcanists.runtimeconfig.dev.json
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Arcanists.dll
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Arcanists.pdb
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.csprojAssemblyReference.cache
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.AssemblyInfoInputs.cache
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.AssemblyInfo.cs
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.dll
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\obj\Debug\netcoreapp2.0\Arcanists.pdb
+C:\Users\Ryan\Desktop\WorkBench\Arcanists\bin\Debug\netcoreapp2.0\Content\sprites\circle.xnb
