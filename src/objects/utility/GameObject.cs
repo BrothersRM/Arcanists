@@ -9,7 +9,7 @@ namespace Arcanists
 
     public class GameObjectManager
     {
-        public HashSet<GameObject> GameObjects { get; set; }
+        public HashSet<GameObject> GameObjects { get; set; }   
 
         public GameObjectManager()
         {
@@ -51,12 +51,12 @@ namespace Arcanists
         }
     }
 
-    public abstract class GameObject : IUpdatable, Drawable, Collidable
+    public abstract class GameObject : IUpdatable, IDrawable, ICollidable
     {
         public Rectangle BoundingBox { get; set; } = new Rectangle();
         public Texture2D Texture { get; set; }
         public Vector2 Position { get; set; }
-
+        public abstract string SpriteFileName { get; set; }   
         public GameObject(Vector2 position)
         {
             Position = position;
@@ -65,6 +65,21 @@ namespace Arcanists
         public abstract void Update(GameTime time);
 
         public abstract void Draw(GameTime time, SpriteBatch batch, GraphicsDeviceManager device);
-        public abstract void Load(ContentManager manager);
+        public void Load(ContentManager manager)
+        {
+            if(!String.IsNullOrEmpty(SpriteFileName))
+            {
+                try
+                {
+                    Texture = manager.Load<Texture2D>(SpriteFileName);
+                    OnLoad();
+                }
+                catch(Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
+        protected abstract void OnLoad();
     }
 }

@@ -1,8 +1,10 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 
-namespace Arcanists 
+namespace Arcanists
 {
 
     public interface IUpdatable
@@ -10,15 +12,20 @@ namespace Arcanists
         void Update(GameTime time);
     }
 
-    public interface Drawable
+    public interface IDrawable
     {
         Texture2D Texture { get; set; }
-        Vector2 Position {get; set;}
+        Vector2 Position { get; set; }
         void Draw(GameTime time, SpriteBatch batch, GraphicsDeviceManager device);
     }
 
-    public interface Collidable
+    public interface ICollidable
     {
         Rectangle BoundingBox { get; set; }
+    }
+
+    public interface IControllable
+    {
+        Dictionary<Keys, Action> OnKeyAction { get; set; }
     }
 }

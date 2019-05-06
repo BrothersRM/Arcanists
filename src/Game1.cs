@@ -21,7 +21,6 @@ namespace Arcanists
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            objManager.AddGameObject(new Ball(new Vector2(0, 0)));
             base.Initialize();
         }
 

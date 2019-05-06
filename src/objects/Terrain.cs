@@ -15,9 +15,8 @@ namespace Arcanists
         }
 
         public Rectangle Bounds { get; set; }      
-        public Texture2D Texture { get; set; } 
+        public override string SpriteFileName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        
         public static bool[,] DeformMap(bool[,] map, bool[,] deformation, int topleftx, int toplefty)
         {
             var deformed = map.Clone() as bool[,];
@@ -36,12 +35,12 @@ namespace Arcanists
             throw new NotImplementedException();
         }
 
-        public override void Load(ContentManager manager)
+        public override void Update(GameTime time)
         {
             throw new NotImplementedException();
         }
 
-        public override void Update(GameTime time)
+        protected override void OnLoad()
         {
             throw new NotImplementedException();
         }

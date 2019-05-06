@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ryan/Desktop/WorkBench/Arcanists/Content/sprites/circle.bmp</SourceFile>
-  <SourceTime>2019-05-04T20:04:56.2331715-05:00</SourceTime>
-  <DestFile>C:/Users/Ryan/Desktop/WorkBench/Arcanists/Content/bin/DesktopGL/Content/sprites/circle.xnb</DestFile>
-  <DestTime>2019-05-04T20:36:26.7291847-05:00</DestTime>
+  <SourceFile>C:/Users/Ryan/Documents/Github/Arcanists/Content/sprites/circle.png</SourceFile>
+  <SourceTime>2019-05-05T14:50:58.4608102-05:00</SourceTime>
+  <DestFile>C:/Users/Ryan/Documents/Github/Arcanists/Content/bin/DesktopGL/Content/sprites/circle.xnb</DestFile>
+  <DestTime>2019-05-05T14:52:27.2250107-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-01-13T19:18:24-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

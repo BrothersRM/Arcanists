@@ -788,11 +788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ryan\\Desktop\\WorkBench\\Arcanists\\Arcanists.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Documents\\Github\\Arcanists\\Arcanists.csproj",
       "projectName": "Arcanists",
-      "projectPath": "c:\\Users\\Ryan\\Desktop\\WorkBench\\Arcanists\\Arcanists.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Documents\\Github\\Arcanists\\Arcanists.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ryan\\Desktop\\WorkBench\\Arcanists\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Documents\\Github\\Arcanists\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

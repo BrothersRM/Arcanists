@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Ryan/Desktop/WorkBench/Arcanists/Content/sprites/circle.bmp</File>
+    <File>C:/Users/Ryan/Documents/Github/Arcanists/Content/sprites/circle.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
